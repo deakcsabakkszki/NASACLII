@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36811.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASACLII", "NASACLII.csproj", "{5EEBEF5F-0A55-4B76-AE22-240A46E2F6C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASACLIITests", "..\NASACLIITests\NASACLIITests.csproj", "{14606195-B807-43F7-B353-E386107FC9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaWPF1", "..\NasaWPF1\NasaWPF1.csproj", "{88644A11-8CBE-42AF-BA6A-93F54B3D4CCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5EEBEF5F-0A55-4B76-AE22-240A46E2F6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EEBEF5F-0A55-4B76-AE22-240A46E2F6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EEBEF5F-0A55-4B76-AE22-240A46E2F6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14606195-B807-43F7-B353-E386107FC9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14606195-B807-43F7-B353-E386107FC9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14606195-B807-43F7-B353-E386107FC9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14606195-B807-43F7-B353-E386107FC9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88644A11-8CBE-42AF-BA6A-93F54B3D4CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88644A11-8CBE-42AF-BA6A-93F54B3D4CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88644A11-8CBE-42AF-BA6A-93F54B3D4CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88644A11-8CBE-42AF-BA6A-93F54B3D4CCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
