@@ -33,6 +33,22 @@
                     break;
                 }
             }
+
+            Console.WriteLine(" ");
+            Console.WriteLine("5. feladat: Küldetések kockázati szintjei: ");
+            foreach(var item in kuldetesLista)
+            {
+                if (item.KockazatiSzint() == "Magas")
+                {
+                    Console.WriteLine($"{item.Nev}: Magas");
+                }
+            }
+
+            var legkisebbHasznosTeher = kuldetesLista.MinBy(k => k.HasznosTeher);
+            Console.WriteLine($"6. feladat: A legkisebb hasznos teher: {legkisebbHasznosTeher.HasznosTeher}kg ({legkisebbHasznosTeher.Nev})");
+
+
+
         }
         //3. feladat
         public static void hanyKuldetes()

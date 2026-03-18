@@ -28,5 +28,25 @@ namespace NASACLII
             Koltseg = double.Parse(sor.Split(';')[6]);
             HasznosTeher = double.Parse(sor.Split(';')[7]);
         }
+
+        public string KockazatiSzint()
+        {
+            if (Koltseg >= 1 && HasznosTeher>=10000)
+            {
+                return "Magas";
+            }
+            else if(Koltseg >= 1 && HasznosTeher < 10000)
+            {
+                return "Közepes";
+            }
+            else if(Koltseg < 1 && HasznosTeher >= 10000)
+            {
+                return "Közepes";
+            }
+            else
+            {
+                return "Alacsony";
+            }
+        }
     }
 }
